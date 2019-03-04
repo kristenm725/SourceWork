@@ -10,7 +10,9 @@ const personOne = favoriteFoods => {
 };
 
 const personTwo = favoriteMovies => {
-  /*insert functionality here*/
+  for (let i = 1; i < favoriteMovies.length; i++) {
+    console.log(favoriteMovies[i]);
+  }
 };
 
 const personThree = favoriteAnimals => {
@@ -25,7 +27,5 @@ const favoriteFoods = [],
   favoriteAnimals = [];
 
 const iceBreaker = () => {
-  /*
-    Call each function here
-    */
+  personTwo("titanic", "avengers");
 };
